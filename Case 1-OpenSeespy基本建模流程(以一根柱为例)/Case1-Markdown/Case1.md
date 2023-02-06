@@ -146,9 +146,8 @@ plt.show()
 ```
 
 
-    
-![png](output_9_0.png)
-    
+![output_9_0](https://user-images.githubusercontent.com/98397090/216862935-d71021d4-2b6b-4065-9f5b-ae9b26525d21.png)
+ 
 
 
 # =============材料测试环节可忽略============= #
@@ -255,10 +254,8 @@ plt.legend(prop=font_Times_New_Roman,edgecolor='#928a97',facecolor='none')
 plt.show()
 ```
 
-
     
-![png](output_11_0.png)
-    
+![output_11_0](https://user-images.githubusercontent.com/98397090/216862984-d1f1faba-79b7-4f23-a7a9-2a3f0deb2691.png)
 
 
 
@@ -357,10 +354,8 @@ plt.axis('equal')
 plt.show()
 ```
 
-
     
-![png](output_14_0.png)
-    
+![output_14_0](https://user-images.githubusercontent.com/98397090/216863007-b256c720-bc7d-44db-a509-9cf5b3b95d72.png)
 
 
 ## 建立节点
@@ -410,10 +405,8 @@ opsv.plot_model("node","elements")
 
 
 
-
-    
-![png](output_21_1.png)
-    
+ 
+![output_21_1](https://user-images.githubusercontent.com/98397090/216863032-6816a432-80b7-456b-aeeb-869ac5f58817.png)
 
 
 ## 施加轴压
@@ -589,7 +582,6 @@ plt.show()
 ```
 
 
-    
-![png](output_29_0.png)
-    
+![output_29_0](https://user-images.githubusercontent.com/98397090/216863069-03b0ad32-e74a-4cf6-b84a-b023b1c5ec9b.png)
+ 
 
