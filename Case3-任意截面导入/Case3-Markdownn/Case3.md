@@ -77,10 +77,8 @@ plt.axis('equal')
 plt.show()
 ```
 
-
     
-![png](output_6_0.png)
-    
+![output_6_0](https://user-images.githubusercontent.com/98397090/217230194-f82f533f-be32-4dc8-afaf-53ed48a139fa.png)
 
 
 ### Abaqus导入节点计算，并查看截面
@@ -139,9 +137,7 @@ np.savetxt('OpenSees_Import.txt',OpenSees_Import)
 
 ```
 
-
-    
-![png](output_8_0.png)
+![output_8_0](https://user-images.githubusercontent.com/98397090/217230256-1edbda6a-c03c-4e57-ba6e-de06db3de8a0.png)
     
 
 
@@ -169,8 +165,8 @@ plt.show()
 ```
 
 
-    
-![png](output_10_0.png)
+![output_10_0](https://user-images.githubusercontent.com/98397090/217230337-331677d4-4f3a-410f-9b19-3943b49e6d65.png)
+
     
 
 
@@ -549,8 +545,6 @@ plt.legend(prop=font_Times_New_Roman,edgecolor='#928a97',facecolor='none')
 plt.show()
 ```
 
-
     
-![png](output_16_0.png)
-    
+![output_16_0](https://user-images.githubusercontent.com/98397090/217230439-5505cba2-f829-4f9f-823b-464c8cbd3e5c.png)
 
