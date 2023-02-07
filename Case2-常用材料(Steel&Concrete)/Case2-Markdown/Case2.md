@@ -159,7 +159,7 @@ plt.show()
 
 
     
-![png](output_4_0.png)
+![png](https://github.com/AshenOneme/OpenSeespy-common-problems-and-cases/tree/main/Case2-%E5%B8%B8%E7%94%A8%E6%9D%90%E6%96%99(Steel%26Concrete)/Case2-Markdown/output_4_0.png)
     
 
 
