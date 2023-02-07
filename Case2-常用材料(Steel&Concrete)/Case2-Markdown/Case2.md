@@ -159,7 +159,8 @@ plt.show()
 
 
     
-![png](https://github.com/AshenOneme/OpenSeespy-common-problems-and-cases/tree/main/Case2-%E5%B8%B8%E7%94%A8%E6%9D%90%E6%96%99(Steel%26Concrete)/Case2-Markdown/output_4_0.png)
+![output_4_0](https://user-images.githubusercontent.com/98397090/217128751-e2cfec35-4729-444c-9549-d6f4c7582ac3.png)
+
     
 
 
@@ -314,7 +315,8 @@ plt.show()
 
 
     
-![png](output_6_0.png)
+![output_6_0](https://user-images.githubusercontent.com/98397090/217128781-7af16d35-095b-4840-b365-64ce5f6fe92b.png)
+
     
 
 
@@ -444,8 +446,8 @@ plt.show()
     
 
 
-    
-![png](output_8_1.png)
+![output_8_1](https://user-images.githubusercontent.com/98397090/217128802-fa4aa9b2-ae2a-474b-976c-190d3fb5f86d.png)
+
     
 
 
@@ -579,7 +581,7 @@ plt.show()
 
 
     
-![png](output_10_0.png)
+![output_10_0](https://user-images.githubusercontent.com/98397090/217128827-36fc5b48-d2c7-4dac-845e-f232c7cdbac9.png)
     
 
 
@@ -709,8 +711,8 @@ plt.show()
 ```
 
 
-    
-![png](output_12_0.png)
+![output_12_0](https://user-images.githubusercontent.com/98397090/217128853-dcffdec9-c63e-4861-bfe7-09d3d5dfc5e5.png)
+
     
 
 
@@ -848,7 +850,7 @@ plt.show()
 
 
     
-![png](output_14_0.png)
+![output_14_0](https://user-images.githubusercontent.com/98397090/217128875-d8656183-bc13-4f18-8d9c-4ccb2e572fd0.png)
     
 
 
@@ -973,6 +975,7 @@ plt.show()
 
 
     
-![png](output_16_1.png)
+![output_16_1](https://user-images.githubusercontent.com/98397090/217128902-49051fe0-e70d-4bb1-a2a0-5ce37a6c0d91.png)
+
     
 
