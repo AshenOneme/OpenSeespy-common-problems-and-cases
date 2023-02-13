@@ -354,11 +354,7 @@ plt.show()
 
     
 ![output_6_1](https://user-images.githubusercontent.com/98397090/218361075-b9f978da-7d32-4973-b582-d5c64140314d.png)
-
-  
 ![output_6_3](https://user-images.githubusercontent.com/98397090/218361093-38e6ffa6-eff1-473f-8a24-a4ed61fa57f6.png)
-
-  
 ![output_6_5](https://user-images.githubusercontent.com/98397090/218361124-e67894c2-f5c4-45a1-99a2-7a27870ec82c.png)
 
 
