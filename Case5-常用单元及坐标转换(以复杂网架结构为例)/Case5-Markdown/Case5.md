@@ -12,7 +12,8 @@ import os
 ```
 
 ## 二维坐标系下
-![ElementCrossSection.png](attachment:ElementCrossSection.png)
+![ElementCrossSection](https://user-images.githubusercontent.com/98397090/218360842-c342a223-9a53-4752-99b4-9b736cad3532.png)
+
 #### 截面局部坐标系如下：
 Y   
 ^   
@@ -42,7 +43,8 @@ Z </p>
 </div>   
 
 #### 二维坐标系下的截面坐标：
-![ElementVectors.png](attachment:ElementVectors.png)
+![ElementVectors](https://user-images.githubusercontent.com/98397090/218360884-dace6cb8-353a-4abc-8f13-b71d927e709f.png)
+
 
 
 
@@ -121,8 +123,9 @@ plt.show()
 
 
     
-![png](output_6_0.png)
-    
+
+![output_6_0](https://user-images.githubusercontent.com/98397090/218360907-12432dd0-f5fc-4036-8881-7bf9b45cf4c6.png)
+ 
 
 
 ### 截面信息(Element2)
@@ -170,8 +173,10 @@ plt.show()
 ```
 
 
-    
-![png](output_8_0.png)
+
+![output_8_0](https://user-images.githubusercontent.com/98397090/218360942-e91a1c77-6e73-42c3-bbea-6eb5041380bc.png)
+
+
     
 
 
@@ -192,7 +197,8 @@ ops.beamIntegration('Trapezoidal', IDFBSIntegration2D, fiber_beam_section2,4)
 
 ## 三维坐标系下
 #### 截面局部坐标的Z轴对准整体坐标哪个轴，输入相应坐标
-![ElementOrientation.png](attachment:ElementOrientation.png)
+![ElementOrientation](https://user-images.githubusercontent.com/98397090/218360999-e8c69a15-96cb-4ab2-b05d-a44aa50a5cdb.png)
+
 
 
 ```python
@@ -276,8 +282,9 @@ plt.show()
 
 
     
-![png](output_5_0.png)
-    
+
+![output_5_0](https://user-images.githubusercontent.com/98397090/218361040-4ebfcd25-f3c9-478a-8b7a-1a70d718413f.png)
+
 
 
 
@@ -346,27 +353,15 @@ plt.show()
 
 
     
-![png](output_6_1.png)
-    
+![output_6_1](https://user-images.githubusercontent.com/98397090/218361075-b9f978da-7d32-4973-b582-d5c64140314d.png)
+
+  
+![output_6_3](https://user-images.githubusercontent.com/98397090/218361093-38e6ffa6-eff1-473f-8a24-a4ed61fa57f6.png)
+
+  
+![output_6_5](https://user-images.githubusercontent.com/98397090/218361124-e67894c2-f5c4-45a1-99a2-7a27870ec82c.png)
 
 
-    C:\Users\Ashen\AppData\Local\Temp\ipykernel_55884\2052915022.py:41: MatplotlibDeprecationWarning: Calling gca() with keyword arguments was deprecated in Matplotlib 3.4. Starting two minor releases later, gca() will take no keyword arguments. The gca() function should only be used to get the current axes, or if no axes exist, create new axes with default keyword arguments. To create a new axes with non-default arguments, use plt.axes() or plt.subplot().
-      ax=fig.gca(projection='3d')
-    
-
-
-    
-![png](output_6_3.png)
-    
-
-
-    C:\Users\Ashen\AppData\Local\Temp\ipykernel_55884\2052915022.py:48: MatplotlibDeprecationWarning: Calling gca() with keyword arguments was deprecated in Matplotlib 3.4. Starting two minor releases later, gca() will take no keyword arguments. The gca() function should only be used to get the current axes, or if no axes exist, create new axes with default keyword arguments. To create a new axes with non-default arguments, use plt.axes() or plt.subplot().
-      ax=fig.gca(projection='3d')
-    
-
-
-    
-![png](output_6_5.png)
     
 
 
@@ -409,92 +404,6 @@ for i in range(74,82):
     ops.analyze(1000)
 
 ```
-
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 119844 (max: 1e-05, Norm deltaR: 5.45397e+11)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 585 with domain at load factor -6.64015e+07
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 18192.8 (max: 1e-05, Norm deltaR: 1.07034e+10)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor -1.52648e+07
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 39840.9 (max: 1e-05, Norm deltaR: 5.22873e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 3 with domain at load factor 4.94063e+06
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 5577.68 (max: 1e-05, Norm deltaR: 2.86339e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor -134965
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 2472.75 (max: 1e-05, Norm deltaR: 2.39145e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 2.9539e+07
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 14410.2 (max: 1e-05, Norm deltaR: 3.43178e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor -465381
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 13777.5 (max: 1e-05, Norm deltaR: 8.45705e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 4.44319e+06
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 33183 (max: 1e-05, Norm deltaR: 2.14739e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 5.45306e+06
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 27822 (max: 1e-05, Norm deltaR: 4.52014e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 3.21557e+06
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 6030.02 (max: 1e-05, Norm deltaR: 2.29508e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 305910
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 73717.6 (max: 1e-05, Norm deltaR: 5.60293e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 2.65835e+06
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 136.304 (max: 1e-05, Norm deltaR: 3.87251e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 1.12079e+06
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 9147.95 (max: 1e-05, Norm deltaR: 3.07339e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 202891
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 6852.43 (max: 1e-05, Norm deltaR: 3.37449e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor -882123
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 3251.12 (max: 1e-05, Norm deltaR: 2.96178e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor 534426
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 25242.6 (max: 1e-05, Norm deltaR: 3.29684e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor -526601
-    OpenSees > analyze failed, returned: -3 error flag
-    WARNING: CTestNormDispIncr::test() - failed to converge 
-    after: 2000 iterations  current Norm: 63316.1 (max: 1e-05, Norm deltaR: 3.9443e+09)
-    AcceleratedNewton::solveCurrentStep() -The ConvergenceTest object failed in test()
-    StaticAnalysis::analyze() - the Algorithm failed at step: 0 with domain at load factor -5.3688e+06
-    OpenSees > analyze failed, returned: -3 error flag
     
 
 
@@ -529,6 +438,7 @@ plt.show()
 
 
     
-![png](output_11_0.png)
-    
+
+![output_11_0](https://user-images.githubusercontent.com/98397090/218361196-ba3a6ba8-eb3f-4383-936b-23a0c0824b0d.png)
+
 
